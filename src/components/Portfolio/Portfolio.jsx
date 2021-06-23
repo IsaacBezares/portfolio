@@ -17,7 +17,7 @@ class Portfolio extends Component {
         }, 100)
         setTimeout(() => {
             this.props.onStateChange(true);
-        }, 500)
+        }, 800)
     }
 
     componentWillUnmount() {

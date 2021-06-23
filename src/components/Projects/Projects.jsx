@@ -22,8 +22,8 @@ class Projects extends Component {
 
         return (
             <div className={"portfolio"}>
-                <Grid container spacing={6}>
-                    <Hidden mdUp>
+                <Hidden mdUp>
+                    <Grid container spacing={6}>
                         <Slide direction="right" in={loading} mountOnEnter unmountOnExit timeout={500}>
                             <Grid container item>
                                 <Project project={this.projects.ecommerce}/>
@@ -39,31 +39,33 @@ class Projects extends Component {
                                 <Project project={this.projects.portfolio}/>
                             </Grid>
                         </Slide>
-                    </Hidden>
+                    </Grid>
+                </Hidden>
 
-                    <Hidden smDown>
-                        <Grid container item direction={"row"} spacing={6} xs={12}>
+                <Hidden smDown>
+                    <Grid container spacing={10}>
+                        <Grid container item direction={"row"} justify={"center"} spacing={10}>
                             <Slide direction="right" in={loading} mountOnEnter unmountOnExit timeout={500}>
-                                <Grid container item sm={6} xs={12}>
+                                <Grid container item sm={5}>
                                     <Project project={this.projects.ecommerce}/>
                                 </Grid>
                             </Slide>
                             <Slide direction="left" in={loading} mountOnEnter unmountOnExit timeout={500}>
-                                <Grid container item sm={6} xs={12}>
+                                <Grid container item sm={5}>
                                     <Project project={this.projects.kitchef}/>
                                 </Grid>
                             </Slide>
                         </Grid>
-                        <Grid container item direction={"row"} xs={12} spacing={6}>
-                            <Slide direction="right" in={loading} mountOnEnter unmountOnExit timeout={500}>
-                                <Grid container item sm={6} xs={12}>
+                        <Grid container item direction={"row"} justify={"center"} spacing={10}>
+                            <Slide direction="up" in={loading} mountOnEnter unmountOnExit timeout={500}>
+                                <Grid container item sm={5}>
                                     <Project project={this.projects.portfolio}/>
                                 </Grid>
                             </Slide>
                         </Grid>
-                    </Hidden>
+                    </Grid>
+                </Hidden>
 
-                </Grid>
             </div>
         );
     }

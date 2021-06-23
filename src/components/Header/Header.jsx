@@ -8,7 +8,7 @@ class Header extends Component {
     render() {
         return (
             <div className={"header"}>
-                <a href={"/"} className={"brand_logo"}>
+                <a href={"/portfolio/#"} className={"brand_logo"}>
                     <source srcSet={Logo1x + " 1x"} media={"(min-width: 120em)"}/>
                     <img srcSet={Logo1x + " 1x"} alt={"Isaac B. Brand Logo"}/>
                 </a>

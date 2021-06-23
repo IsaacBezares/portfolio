@@ -1,8 +1,7 @@
 import {
-    BrowserRouter as RouterPackage,
+    HashRouter as RouterPackage,
     Switch,
-    Route,
-    Redirect
+    Route
 } from 'react-router-dom';
 
 import About from './components/About/About';
@@ -17,7 +16,7 @@ class Router extends Component{
                     <Route exact path='/'>
                         <About onStateChange={this.props.onStateChange}/>
                     </Route>
-                    <Route exact path='/portfolio'>
+                    <Route exact path='/projects'>
                         <Portfolio onStateChange={this.props.onStateChange}/>
                     </Route>
                 </Switch>

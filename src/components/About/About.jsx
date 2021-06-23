@@ -34,7 +34,7 @@ class About extends Component {
                         <h1 className={"title"}>Hey, it's Isaac Bezares</h1>
                         <Subtitle text={"I'm a mobile & back-end devoloper currently based in Chiapas, Mexico"}/>
                         <Subtitle text={"Hit me up and let's create something special"}/>
-                        <ButtonComponent text={"view projects"} url={"/portfolio"}/>
+                        <ButtonComponent text={"view projects"} url={"/portfolio/#/projects"}/>
                     </Grid>
                 </Zoom>
             </main>
