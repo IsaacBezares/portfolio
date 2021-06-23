@@ -110,7 +110,7 @@ class Projects extends Component {
                             "In this project I was responsible for the backend implementation, to expand my repertoire of skills I decided to implement a non-relational database like MongoDB, use a framework that I hadn't used actively like NodeJS, and a API language different from rest like GraphQL .\n\n" +
                             "Thanks to my previous experience with API development I managed to adapt to this new environment easily, the most challenging thing in this project was the change of thinking from SQL to NOSQL as I didn't want to make the mistake of relating all the collections as I would in SQL, I had to research from different sources to implement a schema that would take all the advantages of a non-relational database.",
                         img: kitchefLogo,
-                        demo: 'https://warcraft3.info/league',
+                        demo: 'https://github.com/IsaacBezares/kitchef-back',
                         code: 'https://github.com/IsaacBezares/kitchef-back',
                         technologies:
                             [
@@ -128,7 +128,7 @@ class Projects extends Component {
                         name: 'Portfolio',
                         summary: 'The idea behind this project was to create a showcase of all my big projects for the past year. I tried to keep the UI as simple as possible without any fluff. \n\n This is a Single Page Application and is built using ReactJS.',
                         img: portfolioImg,
-                        demo: 'http://localhost:3000/',
+                        demo: 'https://isaacbezares.github.io/',
                         code: 'https://github.com/IsaacBezares/portfolio',
                         technologies:
                             [

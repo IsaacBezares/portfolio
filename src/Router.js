@@ -1,7 +1,8 @@
 import {
     BrowserRouter as RouterPackage,
     Switch,
-    Route
+    Route,
+    Redirect
 } from 'react-router-dom';
 
 import About from './components/About/About';
