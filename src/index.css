@@ -1,13 +1,101 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+/* Normalization*/
+*, *::after, *::before
+{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: inherit
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 143.75em) {
+  html {
+    font-size: 90%;
+  }
+}
+@media only screen and (min-width: 187.5em) {
+  html {
+    font-size: 110%;
+  }
+}
+@media only screen and (min-width: 237.5em) {
+  html {
+    font-size: 120%;
+  }
+}
+
+body {
+  background: #22262A;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Staatliches', 'Inconsolata', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+main {
+  width: 90%;
+  margin: 2.5rem auto 8rem;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+}
+
+@media only screen and (max-width: 62.5em) {
+  main {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  main {
+    width: 78%
+  }
+}
+
+@media only screen and (min-width: 87.5em) {
+  main {
+    width: 120rem
+  }
+}
+
+
+
+::-webkit-scrollbar-track
+{
+  border-radius: 12px;
+  background-color: #171A1D;
+}
+
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #171A1D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 12px;
+  background-color: #97BFD3;
 }

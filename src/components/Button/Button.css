@@ -1,0 +1,39 @@
+.button {
+    display: block;
+    margin-top: 8rem;
+    height: 5rem;
+    width: 16rem;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.button * {
+    transition: all 150ms;
+    display: block;
+    width: 100%;
+    height: 4.5rem;
+    line-height: 1;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    background-color: #22262b;
+    color: #fff;
+    font-family: 'Staatliches', sans-serif;
+}
+
+@media only screen and (min-width: 200em) {
+    .button{
+        height: 3rem;
+        width: 10rem;
+    }
+}
+
+.button_bottom {
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #22262a;
+}
+
+.button:hover * {
+    transform: translateY(-5.5rem);
+    cursor: pointer;
+}

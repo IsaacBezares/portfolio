@@ -1,0 +1,18 @@
+.portfolio-title
+{
+    display: inline-block;
+    font-size: 4.0rem;
+    color: #fff;
+    letter-spacing: 2px;
+    user-select: text;
+}
+
+.portfolio-sub {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 1.6rem;
+    color: #94a4b4;
+    display: inline-block;
+    margin: 1.2rem 0;
+    line-height: 1.5;
+    user-select: text;
+}

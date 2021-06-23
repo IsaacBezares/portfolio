@@ -1,0 +1,47 @@
+.subtitle {
+    color: #94a4b4;
+    line-height: 1;
+    font-size: 3rem;
+    display: block;
+}
+@media only screen and (max-width: 44.375em) {
+    .subtitle {
+        font-size: 2rem;
+    }
+}
+.word {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0.5rem;
+    height: 4rem;
+    overflow: hidden;
+}
+@media only screen and (max-width: 44.375em) {
+    .word {
+        height: 2.5rem;
+        margin: 0 0.3rem;
+    }
+}
+.word * {
+    transition: all 250ms;
+}
+.word-bottom {
+    visibility: hidden;
+}
+.word-active * {
+    transform: translateY(-4rem);
+}
+@media only screen and (max-width: 44.375em) {
+    .word-active * {
+        transform: translateY(-3rem);
+    }
+}
+.word-active .word-bottom {
+    visibility: visible;
+}
+.word-top {
+    margin-bottom: 1rem;
+}
+.word-bottom {
+    color: #5b6570;
+}
