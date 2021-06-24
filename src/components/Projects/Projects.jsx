@@ -130,7 +130,7 @@ class Projects extends Component {
                         name: 'Portfolio',
                         summary: 'The idea behind this project was to create a showcase of all my big projects for the past year. I tried to keep the UI as simple as possible without any fluff. \n\n This is a Single Page Application and is built using ReactJS.',
                         img: portfolioImg,
-                        demo: 'https://isaacbezares.github.io/',
+                        demo: 'https://isaacbezares.github.io/portfolio',
                         code: 'https://github.com/IsaacBezares/portfolio',
                         technologies:
                             [
